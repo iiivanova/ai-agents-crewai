@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+*.pyc
+test_document.txt
+remote_work_report.txt
+python_report.txt
