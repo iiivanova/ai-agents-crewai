@@ -13,6 +13,11 @@ Haiku. Two-stage design with a human review checkpoint before fixes are applied.
 searches the web, extracts insights, and produces an executive summary. Runs on
 Llama 3.2 locally via Ollama.
 
+**analyst_with_feedback_loop.ipynb** - Loop engineering pattern using CrewAI and
+Bridgekit. An analyst agent writes a data analysis, Bridgekit scores it across
+four dimensions, and a rewriter agent improves it if it doesn't pass. The loop
+runs until the quality bar is met or the iteration limit is hit. Uses Claude Haiku.
+
 ## Setup
 
 ```bash
